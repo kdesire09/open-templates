@@ -1,5 +1,5 @@
 {
-  "name": "ignite",
+  "name": "motion-launch",
   "type": "module",
   "private": true,
   "scripts": {
@@ -9,11 +9,13 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
     "@nuxt/ui": "4.3.0",
     "nuxt": "^4.2.2",
+    "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"
@@ -21,6 +23,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^7.0.1",
     "eslint": "^9.39.2",
-    "eslint-plugin-format": "^1.3.1"
+    "eslint-plugin-format": "^1.3.1",
+    "vue-tsc": "^3.2.2"
   }
 }
