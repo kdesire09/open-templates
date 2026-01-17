@@ -1,13 +1,22 @@
-import { createConfig } from '@hrcd/eslint-config'
+import antfu from '@antfu/eslint-config'
 
-export default createConfig({
+export default antfu({
+  type: 'lib',
+  ignores: [
+    '**/fixtures',
+  ],
+
+  gitignore: true,
+
+
+  stylistic: {
+    indent: 2, // 4, or 'tab'
+    quotes: 'single', // or 'double'
+  },
+
   typescript: true,
   vue: true,
-  nuxt: true,
 
-  // Define files to ignore
-  ignores: [
-    'dist',
-    'node_modules',
-  ],
+  jsonc: false,
+  yaml: false,
 })
