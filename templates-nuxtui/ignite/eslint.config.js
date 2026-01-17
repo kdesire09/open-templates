@@ -8,7 +8,6 @@ export default antfu({
 
   gitignore: true,
 
-
   stylistic: {
     indent: 2, // 4, or 'tab'
     quotes: 'single', // or 'double'
