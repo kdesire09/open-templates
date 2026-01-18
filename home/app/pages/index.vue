@@ -3,10 +3,10 @@ const versions = ref([
   {
     title: 'Motion Launch',
     description: 'Modern, high-impact product launch template.',
-    image: '~/assets/images/motion-launch.png',
-    date: '2025-04-27',
-    preview: 'https://nuxt.com/blog/v3-17',
-    repository: 'https://nuxt.com/blog/v3-17',
+    image: '/images/motion-launch.png',
+    date: '2025-01-18',
+    preview: 'https://opentemplates-ui-motionlaunch.kdesire.com',
+    repository: 'https://github.com/kdesire09/open-templates/tree/main/templates-nuxtui/motion-launch',
     designer: {
       name: 'Desire KOUASSI',
       url: 'https://github.com/kdesire09',
@@ -53,7 +53,10 @@ function formatDate(dateString: string) {
           <NuxtImg
             :src="version.image"
             :alt="version.title"
+            :width="1280"
+            :height="720"
             quality="80"
+            placeholder
             class="w-full h-auto object-cover transition-transform duration-500 ease-out group-hover:scale-105"
           />
           <!-- Border ring -->
