@@ -1,77 +1,65 @@
-## Credits
+# 🎨 Open Templates Showcase
 
-This site is built using the [Changelog template](https://changelog-template.nuxt.dev/) from Nuxt UI.
+The main showcase portal for Open Templates, a curated collection of modern UI templates built with Nuxt and Nuxt UI.
 
-The use of this template to showcase my original UI template creations.
+## 🚀 Setup
 
-## Setup
-
-Make sure to install dependencies:
+Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
 # pnpm
 pnpm install
 
+# npm
+npm install
+
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## 💻 Development
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
 # pnpm
 pnpm dev
 
+# npm
+npm run dev
+
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## 🏗️ Production
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
 # pnpm
 pnpm build
 
+# npm
+npm run build
+
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
 # pnpm
 pnpm preview
 
+# npm
+npm run preview
+
 # yarn
 yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+
+Built with ❤️ by [Désiré Kouassi](https://github.com/desire-kouassi)

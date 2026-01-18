@@ -7,7 +7,15 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     'motion-v/nuxt',
     '@nuxt/icon',
+    '@nuxtjs/seo',
   ],
+
+  site: {
+    url: 'https://motion-launch.kdesire.com',
+    name: 'MotionLaunch',
+    description: 'Engineered for performance. Designed for those who demand excellence.',
+    defaultLocale: 'en',
+  },
 
   css: ['~/assets/css/main.css'],
 

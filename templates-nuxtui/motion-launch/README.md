@@ -1,17 +1,29 @@
-# Nuxt Minimal Starter
+# 🚀 Motion Launch Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A high-conversion landing page template for waitlists and product launches, built with **Nuxt 4**, **Nuxt UI**, and **Motion-v**.
 
-## Setup
+## 🔗 Preview
 
-Make sure to install dependencies:
+- [Live Demo](https://opentemplates-ui-motionlaunch.kdesire.com/)
+
+## ✨ Features
+
+- 🚀 **Nuxt 4 Ready**: Built on the latest Nuxt version.
+- 🎨 **Nuxt UI & Tailwind CSS**: Modern and customizable styling.
+- 🎬 **Motion-v Animations**: Smooth and engaging animations out of the box.
+- 📱 **Mobile Optimized**: Fully responsive design.
+- 🌓 **Dark Mode**: Native support for light and dark themes.
+
+## 🛠️ Setup
+
+Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
 # pnpm
 pnpm install
+
+# npm
+npm install
 
 # yarn
 yarn install
@@ -20,16 +32,16 @@ yarn install
 bun install
 ```
 
-## Development Server
+## 💻 Development
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
 # pnpm
 pnpm dev
+
+# npm
+npm run dev
 
 # yarn
 yarn dev
@@ -38,16 +50,16 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## 🏗️ Production
 
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
 # pnpm
 pnpm build
+
+# npm
+npm run build
 
 # yarn
 yarn build
@@ -59,11 +71,11 @@ bun run build
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
 # pnpm
 pnpm preview
+
+# npm
+npm run preview
 
 # yarn
 yarn preview
@@ -72,4 +84,6 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+
+Built with ❤️ by [Désiré Kouassi](https://github.com/desire-kouassi)

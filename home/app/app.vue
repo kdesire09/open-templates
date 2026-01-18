@@ -6,9 +6,6 @@ useHead({
   link: [
     { rel: 'icon', href: '/favicon.ico' },
   ],
-  htmlAttrs: {
-    lang: 'en',
-  },
 })
 
 const title = 'Open Templates'
@@ -34,13 +31,12 @@ const links = [
 ]
 
 useSeoMeta({
-  title,
-  description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/changelog-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/changelog-light.png',
+  ogImage: 'https://open-templates.kdesire.com/og-image.png',
+  twitterImage: 'https://open-templates.kdesire.com/og-image.png',
   twitterCard: 'summary_large_image',
+  twitterSite: '@kdesire09',
 })
 </script>
 
