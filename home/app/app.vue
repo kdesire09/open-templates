@@ -5,6 +5,8 @@ useHead({
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico' },
+    { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+    { rel: 'manifest', href: '/site.webmanifest' },
   ],
 })
 
@@ -64,13 +66,20 @@ useSeoMeta({
         </template>
         <template #description>
           <div class="text-3xl font-light text-zinc-600 dark:text-zinc-200">
-            A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project by
-            <NuxtLink to="https://kdesire.com" target="_blank" class="relative text-primary font-bold">
-              Desire KOUASSI <UIcon name="i-fluent-open-20-filled" class="size-4 absolute top-0 -right-5" />
-            </NuxtLink>
+            A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project.
           </div>
         </template>
         <template #default />
+        <template #footer>
+          <div class="mt-auto pt-8">
+            <p class="text-sm text-zinc-500 dark:text-zinc-400 font-medium tracking-tight">
+              Built by
+              <NuxtLink to="https://kdesire.com" target="_blank" class="relative text-primary font-bold">
+                Desire KOUASSI <UIcon name="i-fluent-open-20-filled" class="size-4 absolute top-0 -right-5" />
+              </NuxtLink>
+            </p>
+          </div>
+        </template>
       </UPageSection>
       <section class="px-4 sm:px-6 xl:px-0 xl:-ms-30 xl:flex-1 bg-zinc-50 dark:bg-zinc-900">
         <ColorModeButton class="fixed top-4 right-4 z-10" />
