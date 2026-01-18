@@ -33,8 +33,8 @@ const links = [
 useSeoMeta({
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://open-templates.kdesire.com/og-image.png',
-  twitterImage: 'https://open-templates.kdesire.com/og-image.png',
+  ogImage: 'https://opentemplates.kdesire.com/og-image.png',
+  twitterImage: 'https://opentemplates.kdesire.com/og-image.png',
   twitterCard: 'summary_large_image',
   twitterSite: '@kdesire09',
 })

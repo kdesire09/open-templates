@@ -30,7 +30,7 @@
 
 | Template | Description | Stack | Preview | Repo | Statut |
 |----------|-------------|-------|---------|------|--------|
-| 🏠 [`home`](./home) | Site vitrine et catalogue des templates | Nuxt 4 + Nuxt UI | [Demo](https://opentemplates.kdesire.com/) | [GitHub](https://github.com/desire-kouassi/open-templates/tree/main/home) | ✅ Ready |
+| 🏠 [`home`](./home) | Site vitrine et catalogue des templates | Nuxt 4 + Nuxt UI | [Demo](https://opentemplates.kdesire.com) | [GitHub](https://github.com/desire-kouassi/open-templates/tree/main/home) | ✅ Ready |
 | 🚀 [`motion-launch`](./templates-nuxtui/motion-launch) | Landing page produit à fort impact avec Motion V | Nuxt 4 + Nuxt UI | [Demo](https://opentemplates-ui-motionlaunch.kdesire.com/) | [GitHub](https://github.com/desire-kouassi/open-templates/tree/main/templates-nuxtui/motion-launch) | ✅ Ready |
 
 ## 🏗️ Project Structure
