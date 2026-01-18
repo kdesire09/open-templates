@@ -3,7 +3,7 @@ const versions = ref([
   {
     title: 'Motion Launch',
     description: 'Modern, high-impact product launch template.',
-    image: 'https://nuxt.com/assets/blog/v3.17.png',
+    image: '~/assets/images/motion-launch.png',
     date: '2025-04-27',
     preview: 'https://nuxt.com/blog/v3-17',
     repository: 'https://nuxt.com/blog/v3-17',
