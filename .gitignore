@@ -1,0 +1,6 @@
+.agents
+node_modules/
+.turbo/
+dist/
+.output/
+.nuxt/
