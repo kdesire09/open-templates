@@ -1,6 +1,24 @@
 {
   "version": 1,
   "skills": {
+    "nuxt": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nuxt/SKILL.md",
+      "computedHash": "9e8237ec92083db9a6f4c77d5e5bf4b1d9873d670671235bc75455ee1ca39c74"
+    },
+    "nuxt-ui": {
+      "source": "nuxt/ui",
+      "sourceType": "github",
+      "skillPath": "skills/nuxt-ui/SKILL.md",
+      "computedHash": "2d58c6092b7028db223a819d5a37badc860a4036ca134a3e457ce7b056562f72"
+    },
+    "tailwindcss-advanced-layouts": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "skillPath": "plugins/tailwindcss-master/skills/tailwindcss-advanced-layouts/SKILL.md",
+      "computedHash": "159d8a8f9eb20136492a9971633fd8658be1e34d5f8dc3bcf1afe7bbb4511bdf"
+    },
     "turborepo": {
       "source": "vercel/turborepo",
       "sourceType": "github",

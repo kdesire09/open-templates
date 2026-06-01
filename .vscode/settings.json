@@ -11,7 +11,9 @@
   ],
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.experimental.useFlatConfig": true,
 
   // Auto fix
   "editor.codeActionsOnSave": {
@@ -58,5 +60,7 @@
     "scss",
     "pcss",
     "postcss"
-  ]
+  ],
+
+  "tailwindCSS.classFunctions": ["defineAppConfig"]
 }

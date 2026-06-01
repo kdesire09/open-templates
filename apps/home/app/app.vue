@@ -13,8 +13,6 @@ useHead({
 const title = 'Open Templates'
 const description = 'A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project.'
 
-
-
 useSeoMeta({
   ogTitle: title,
   ogDescription: description,

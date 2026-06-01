@@ -18,4 +18,10 @@ export default antfu({
 
   jsonc: false,
   yaml: false,
+
+  formatters: {
+    css: true,
+    html: true,
+    markdown: 'prettier'
+  }
 })
