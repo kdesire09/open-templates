@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&amp;display=swap');
+    text {
+      font-family: 'Playfair Display', serif;
+      font-size: 64px;
+      font-weight: 600;
+      text-transform: uppercase;
+      fill: currentColor;
+    }
+  </style>
+  <text x="0" y="55%" dominant-baseline="middle" text-anchor="start">Archive</text>
+</svg>

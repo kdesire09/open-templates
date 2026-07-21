@@ -91,7 +91,7 @@ const latestReleases = computed(() => stories.value?.slice(1))
         </div>
         <ULink
           to="/stories"
-          class="flex justify-center items-center gap-x-2 uppercase hover:translate-x-1 transition-transform"
+          class="flex text-black font-semibold justify-center items-center gap-x-2 uppercase hover:translate-x-1 transition-transform"
         >
           <span>View all</span>
           <UIcon name="i-lucide-arrow-right" />
