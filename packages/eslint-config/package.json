@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "dependencies": {
     "@antfu/eslint-config": "^7.7.3",
     "eslint": "^9.39.4",

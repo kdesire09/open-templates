@@ -1,0 +1,30 @@
+hero:
+  title: OpenTemplates
+  description: A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project.
+  links:
+    - label: GitHub
+      icon: i-simple-icons-github
+      variant: ghost
+      size: md
+      to: https://github.com/kdesire09/open-templates
+      target: _blank 
+
+templates:
+  - name: Motion Launch
+    slug: motion-launch
+    description: Modern, high-impact product launch template.
+    screenshotUrl: /images/motion-launch.png
+    date: '2025-01-18'
+    demo: 
+      to: 'https://opentemplates-ui-motionlaunch.kdesire.com'
+      label: 'Live demo'
+      icon: 'i-heroicons-play-circle'
+    repo:
+      to: 'https://github.com/kdesire09/open-templates/tree/main/apps/motion-launch'
+      label: 'GitHub'
+      icon: 'i-simple-icons-github'
+    designer:
+      label: Desire KOUASSI
+      to: 'https://github.com/kdesire09'
+      avatar: 'https://avatars.githubusercontent.com/u/57430025?v=4'
+    target: _blank

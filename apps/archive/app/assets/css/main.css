@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme {
+  /* Fonts */
+  --font-sans: 'Source Sans 3', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  /* Brand colors */
+  --color-brand-charcoal: #121212;
+  --color-brand-offwhite: #f9f8f6;
+  --color-brand-terracotta: #e05a33;
+  --color-brand-neutral: #6b6b6b;
+  /* Terracotta Scale (For CTAs and Highlights) */
+  --color-terracotta-50: #fcf4f2;
+  --color-terracotta-100: #f7e6e0;
+  --color-terracotta-200: #efc8bc;
+  --color-terracotta-300: #e5a491;
+  --color-terracotta-400: #db7d61;
+  --color-terracotta-500: #e05a33;
+  --color-terracotta-600: #bf4522;
+  --color-terracotta-700: #9c3619;
+  --color-terracotta-800: #7e2d17;
+  --color-terracotta-900: #692816;
+  --color-terracotta-950: #381109;
+
+  /* Spacing */
+  --spacing-page-desktop: 80px;
+  --spacing-page-mobile: 24px;
+  --spacing-gutter: 32px;
+  --spacing-section-gap: 120px;
+}
+
+:root {
+  --ui-primary: black;
+  --ui-radius: 0rem;
+  --ui-container: 80rem; /* 1280px */
+}
+
+.dark {
+  --ui-primary: white;
+}
+
+@layer base {
+  /* body {
+    background-color: var(--color-brand-offwhite);
+    color: var(--color-brand-charcoal);
+  } */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-serif);
+    /* color: var(--color-brand-charcoal); */
+  }
+}
