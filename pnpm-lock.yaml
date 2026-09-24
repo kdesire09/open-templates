@@ -242,9 +242,6 @@ importers:
       '@iconify-json/lucide':
         specifier: ^1.2.136
         version: 1.2.136
-      '@iconify-json/simple-icons':
-        specifier: ^1.2.97
-        version: 1.2.97
       '@nuxt/content':
         specifier: ^3.16.1
         version: 3.16.1(better-sqlite3@12.11.1)(esbuild@0.28.0)(magic-string@1.4.1)(magicast@0.5.3)(oxc-parser@0.105.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3))(rolldown@1.2.9)(rollup@4.60.4)(supports-color@10.2.2)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0))
@@ -1330,9 +1327,6 @@ packages:
 
   '@iconify-json/ph@1.2.2':
     resolution: {integrity: sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw==}
-
-  '@iconify-json/simple-icons@1.2.97':
-    resolution: {integrity: sha512-Z6PmM6jvWVU7rmLzqbxCLJA7SeqCnK6lMHXtjyzHPLZebwuoojBEcHHycppahDzEeN9xujRkrV5J8QpOhMyNrg==}
 
   '@iconify/collections@1.0.691':
     resolution: {integrity: sha512-n6dqyILpgspOZ0vCgfAKlh2vKaCNxKHMCZlQnZZoi5cygpPlNBHbxlJ4MKTzVRMXAa7aTKV2M8ZiEjIX3B++rw==}
@@ -9887,10 +9881,6 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/ph@1.2.2':
-    dependencies:
-      '@iconify/types': 2.0.0
-
-  '@iconify-json/simple-icons@1.2.97':
     dependencies:
       '@iconify/types': 2.0.0
 
