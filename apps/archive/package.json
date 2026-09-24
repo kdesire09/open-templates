@@ -16,7 +16,7 @@
     "@nuxt/content": "3.14.0",
     "@nuxt/fonts": "^0.14.0",
     "@nuxt/image": "2.0.0",
-    "@nuxt/ui": "4.8.1",
+    "@nuxt/ui": "^4.11.2",
     "@takumi-rs/core": "^2.14.0",
     "@unhead/vue": "^3.4.1",
     "@vueuse/core": "^14.4.0",
