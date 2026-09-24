@@ -52,7 +52,11 @@ async function onSubmit(event: FormSubmitEvent<typeof state>) {
     class="flex flex-col sm:flex-row items-start sm:items-center justify-center gap-4 max-w-md mx-auto"
     @submit="onSubmit"
   >
-    <UFormField name="email" class="flex-1 w-full">
+    <UFormField
+      name="email"
+      class="flex-1 w-full"
+      :ui="inverted ? { error: 'text-terracotta-300' } : undefined"
+    >
       <UInput
         v-model="state.email"
         type="email"
@@ -60,7 +64,8 @@ async function onSubmit(event: FormSubmitEvent<typeof state>) {
         size="lg"
         class="w-full"
         :ui="inverted ? {
-          base: 'text-white placeholder:text-white/50 border-white/30 focus:border-white',
+          root: 'border-white/30 focus-within:border-white',
+          base: 'bg-transparent text-white placeholder:text-white/60',
         } : undefined"
       />
     </UFormField>
