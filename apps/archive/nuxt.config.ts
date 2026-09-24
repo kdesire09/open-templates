@@ -15,6 +15,16 @@ export default defineNuxtConfig({
   ],
   css: ['~/assets/css/main.css'],
 
+  // @nuxt/content v3 cannot serve its SQLite database from a serverless
+  // function, so SSR would query an empty collection. Prerendering bakes the
+  // content in at build time; crawlLinks picks up every story from the listings.
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/stories', '/topics', '/about', '/contact'],
+    },
+  },
+
   // Override the URL per environment with NUXT_PUBLIC_SITE_URL (see .env.example).
   site: {
     url: 'https://archive.kdesire.com',
