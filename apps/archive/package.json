@@ -34,6 +34,7 @@
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.136",
     "@open-templates/eslint-config": "workspace:*",
+    "eslint": "^9.39.4",
     "nuxtseo-layer-devtools": "^5.3.16"
   }
 }
