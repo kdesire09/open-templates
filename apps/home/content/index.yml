@@ -29,17 +29,17 @@ templates:
       avatar: 'https://avatars.githubusercontent.com/u/57430025?v=4'
     target: _blank
 
-  - name: Motion Launch
-    slug: motion-launch
-    description: Modern, high-impact product launch template.
-    screenshotUrl: /images/motion-launch.png
-    date: '2025-01-18'
+  - name: Lunet
+    slug: lunet
+    description: Scroll-driven product launch built with GSAP, with pinned scenes, a 3D exploded view and light and dark themes.
+    screenshotUrl: /images/lunet.png
+    date: '2026-09-24'
     demo: 
-      to: 'https://opentemplates-ui-motionlaunch.kdesire.com'
+      to: 'https://lunet.kdesire.com'
       label: 'Live demo'
       icon: 'i-lucide-arrow-up-right'
     repo:
-      to: 'https://github.com/kdesire09/open-templates/tree/main/apps/motion-launch'
+      to: 'https://github.com/kdesire09/open-templates/tree/main/apps/lunet'
       label: 'GitHub'
       icon: 'i-simple-icons-github'
     designer:
