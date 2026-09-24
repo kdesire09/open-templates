@@ -1,3 +1,3 @@
-import config from '@open-templates/eslint-config'
+import config from '@pochoir/eslint-config'
 
 export default config

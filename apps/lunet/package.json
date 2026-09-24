@@ -1,5 +1,5 @@
 {
-  "name": "@open-templates/lunet",
+  "name": "@pochoir/lunet",
   "type": "module",
   "private": true,
   "scripts": {
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@iconify-json/ph": "^1.2.2",
     "@nuxtjs/seo": "^5.3.16",
-    "@open-templates/eslint-config": "workspace:*",
+    "@pochoir/eslint-config": "workspace:*",
     "eslint": "^9.39.4",
     "vue-tsc": "^3.3.11"
   }

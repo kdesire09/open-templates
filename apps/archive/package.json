@@ -1,5 +1,5 @@
 {
-  "name": "@open-templates/archive",
+  "name": "@pochoir/archive",
   "type": "module",
   "private": true,
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.136",
-    "@open-templates/eslint-config": "workspace:*",
+    "@pochoir/eslint-config": "workspace:*",
     "eslint": "^9.39.4",
     "nuxtseo-layer-devtools": "^5.3.16"
   }

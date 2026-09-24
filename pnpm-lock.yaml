@@ -227,7 +227,7 @@ importers:
       '@iconify-json/lucide':
         specifier: ^1.2.136
         version: 1.2.136
-      '@open-templates/eslint-config':
+      '@pochoir/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
       eslint:
@@ -291,7 +291,7 @@ importers:
       '@nuxtjs/seo':
         specifier: ^3.4.0
         version: 3.4.0(@unhead/vue@2.1.15(vue@3.5.43(typescript@5.9.3)))(db0@0.3.4(better-sqlite3@12.11.1))(ioredis@5.11.0(supports-color@10.2.2))(magicast@0.5.3)(rollup@4.60.4)(supports-color@10.2.2)(unhead@2.1.15)(unstorage@1.17.5(db0@0.3.4(better-sqlite3@12.11.1))(ioredis@5.11.0(supports-color@10.2.2)))(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0))(vue@3.5.43(typescript@5.9.3))(zod@3.25.76)
-      '@open-templates/eslint-config':
+      '@pochoir/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
       eslint:
@@ -346,7 +346,7 @@ importers:
       '@nuxtjs/seo':
         specifier: ^5.3.16
         version: 5.3.16(50776e9165c641e4851f6f8039f75919)
-      '@open-templates/eslint-config':
+      '@pochoir/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
       eslint:

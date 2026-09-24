@@ -1,4 +1,4 @@
-# 🚀 OpenTemplates
+# 🚀 Pochoir
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License MIT" />
@@ -24,14 +24,14 @@
 
 ## 📖 À propos
 
-**OpenTemplates** est une bibliothèque de modèles d'applications web conçue pour accélérer le développement et le prototypage. Chaque template est autonome, hautement personnalisable et prêt pour un déploiement moderne sur **Vercel**, **Netlify** ou **Cloudflare Pages**.
+**Pochoir** est une bibliothèque de modèles d'applications web conçue pour accélérer le développement et le prototypage. Chaque template est autonome, hautement personnalisable et prêt pour un déploiement moderne sur **Vercel**, **Netlify** ou **Cloudflare Pages**.
 
 ## 🎨 Templates
 
 | Template | Description | Stack | Preview | Repo | Statut |
 |----------|-------------|-------|---------|------|--------|
-| 🏠 [`home`](./home) | Site vitrine et catalogue des templates | Nuxt 4 + Nuxt UI | [Demo](https://opentemplates.kdesire.com) | [GitHub](https://github.com/desire-kouassi/open-templates/tree/main/home) | ✅ Ready |
-| ⌚ [`lunet`](./apps/lunet) | Lancement produit animé au scroll avec GSAP (vue éclatée, scènes épinglées, mode clair/sombre) | Nuxt 4 + Nuxt UI + GSAP | [Demo](https://lunet.kdesire.com/) | [GitHub](https://github.com/kdesire09/open-templates/tree/main/apps/lunet) | ✅ Ready |
+| 🏠 [`home`](./apps/home) | Site vitrine et catalogue des templates | Nuxt 4 + Nuxt UI | [Demo](https://pochoir.kdesire.com) | [GitHub](https://github.com/kdesire09/pochoir/tree/main/apps/home) | ✅ Ready |
+| ⌚ [`lunet`](./apps/lunet) | Lancement produit animé au scroll avec GSAP (vue éclatée, scènes épinglées, mode clair/sombre) | Nuxt 4 + Nuxt UI + GSAP | [Demo](https://lunet.kdesire.com/) | [GitHub](https://github.com/kdesire09/pochoir/tree/main/apps/lunet) | ✅ Ready |
 
 ## 🏗️ Project Structure
 
@@ -49,7 +49,7 @@
 
 <!-- ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=kdesire09/open-templates&type=date&legend=top-left)](https://www.star-history.com/#kdesire09/open-templates&type=date&legend=top-left) -->
+[![Star History Chart](https://api.star-history.com/svg?repos=kdesire09/pochoir&type=date&legend=top-left)](https://www.star-history.com/#kdesire09/pochoir&type=date&legend=top-left) -->
 ---
 
 
