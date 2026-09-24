@@ -21,7 +21,20 @@ if (!stories.value) {
 const latestPost = computed(() => stories.value?.[0])
 const latestReleases = computed(() => stories.value?.slice(1))
 
+const siteDescription = 'A platform for intellectual exploration, high-design, and the preservation of long-form editorial excellence in the digital age.'
 
+useSeoMeta({
+  title: 'Archive',
+  description: siteDescription,
+  ogTitle: 'Archive',
+  ogDescription: siteDescription,
+})
+
+defineOgImage('Page.takumi', {
+  eyebrow: 'Editorial',
+  title: 'Archive',
+  description: 'A platform for intellectual exploration, high-design, and the preservation of long-form editorial excellence in the digital age.',
+})
 </script>
 
 <template>
@@ -137,9 +150,7 @@ const latestReleases = computed(() => stories.value?.slice(1))
     </UPageSection>
 
     <USeparator />
-    <UPageSection>
-
-    </UPageSection>
+    <AppNewsletterSection />
   </div>
 </template>
 

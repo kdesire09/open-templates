@@ -3,7 +3,7 @@ const navItems = [
   { label: 'Privacy Policy', to: '#' },
   { label: 'Terms of Service', to: '#' },
   { label: 'Newsletter', to: '#' },
-  { label: 'RSS Feed', to: '#' }
+  { label: 'RSS Feed', to: '#' },
 ]
 </script>
 
@@ -13,7 +13,9 @@ const navItems = [
       <div class="max-w-7xl mx-auto px-page-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-gutter">
         <div class="flex flex-col gap-stack-lg">
           <ArchiveLogo class="w-48 text-brand-charcoal dark:text-white" />
-          <p class="font-body-md text-body-md text-brand-neutral max-w-sm">A platform for intellectual exploration, high-design, and the preservation of long-form editorial excellence in the digital age.</p>
+          <p class="font-body-md text-body-md text-brand-neutral max-w-sm">
+            A platform for intellectual exploration, high-design, and the preservation of long-form editorial excellence in the digital age.
+          </p>
           <div class="flex gap-6 mt-4">
             <UButton icon="i-material-symbols-public" color="neutral" variant="link" :padded="false" to="#" aria-label="public" class="text-brand-neutral hover:text-brand-charcoal dark:hover:text-white transition-colors" />
             <UButton icon="i-material-symbols-mail" color="neutral" variant="link" :padded="false" to="#" aria-label="mail" class="text-brand-neutral hover:text-brand-charcoal dark:hover:text-white transition-colors" />

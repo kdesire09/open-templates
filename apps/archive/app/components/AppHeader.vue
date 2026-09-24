@@ -23,7 +23,7 @@ const { headerLinks } = useHeaderLinks()
       <UTooltip text="Search" :kbds="['meta', 'K']" ignore-non-keyboard-focus>
         <UContentSearchButton />
       </UTooltip>
-      <UButton label="Subscribe" />
+      <AppSubscribeModal />
     </template>
   </UHeader>
 </template>

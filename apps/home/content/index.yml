@@ -10,6 +10,25 @@ hero:
       target: _blank 
 
 templates:
+  - name: Archive
+    slug: archive
+    description: Modern editorial blogging platform with a minimalist, magazine-style design system.
+    screenshotUrl: /images/archive.png
+    date: '2026-09-23'
+    demo:
+      to: 'https://archive.kdesire.com'
+      label: 'Live demo'
+      icon: 'i-heroicons-play-circle'
+    repo:
+      to: 'https://github.com/kdesire09/open-templates/tree/main/apps/archive'
+      label: 'GitHub'
+      icon: 'i-simple-icons-github'
+    designer:
+      label: Desire KOUASSI
+      to: 'https://github.com/kdesire09'
+      avatar: 'https://avatars.githubusercontent.com/u/57430025?v=4'
+    target: _blank
+
   - name: Motion Launch
     slug: motion-launch
     description: Modern, high-impact product launch template.

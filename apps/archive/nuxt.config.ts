@@ -4,13 +4,34 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
+    '@nuxt/fonts',
     '@nuxt/image',
     '@nuxt/ui',
     'nuxt-studio',
     'motion-v/nuxt',
     '@vueuse/nuxt',
+    '@comark/nuxt',
+    'nuxt-og-image',
   ],
   css: ['~/assets/css/main.css'],
+
+  // Override the URL per environment with NUXT_PUBLIC_SITE_URL (see .env.example).
+  site: {
+    url: 'https://archive.kdesire.com',
+    name: 'Archive',
+    description: 'A platform for intellectual exploration, high-design, and the preservation of long-form editorial excellence in the digital age.',
+    defaultLocale: 'en',
+  },
+
+  // Takumi is the only renderer used here. Opting out of Satori also avoids the
+  // vulnerable satori@0.18.4 that pnpm hoists from another workspace app.
+  ogImage: {
+    compatibility: {
+      dev: { satori: false },
+      runtime: { satori: false },
+      prerender: { satori: false },
+    },
+  },
 
   fonts: {
     families: [
