@@ -178,9 +178,6 @@ importers:
       '@nuxt/content':
         specifier: 3.14.0
         version: 3.14.0(better-sqlite3@12.11.1)(magicast@0.5.3)(supports-color@10.2.2)
-      '@nuxt/fonts':
-        specifier: ^0.14.0
-        version: 0.14.0(db0@0.3.4(better-sqlite3@12.11.1))(esbuild@0.28.0)(ioredis@5.11.0(supports-color@10.2.2))(magic-string@1.4.1)(magicast@0.5.3)(oxc-parser@0.151.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0))
       '@nuxt/image':
         specifier: 2.0.0
         version: 2.0.0(db0@0.3.4(better-sqlite3@12.11.1))(ioredis@5.11.0(supports-color@10.2.2))(magicast@0.5.3)
@@ -18335,6 +18332,20 @@ snapshots:
       - magicast
       - vue
 
+  nuxt-site-config-kit@4.2.3(magic-string@1.4.1)(magicast@0.5.3)(oxc-parser@0.151.0)(rolldown@1.2.9)(unplugin@3.4.0(esbuild@0.28.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0)))(vue@3.5.43(typescript@5.9.3)):
+    dependencies:
+      '@nuxt/kit': 4.5.2(magic-string@1.4.1)(magicast@0.5.3)(oxc-parser@0.151.0)(rolldown@1.2.9)(unplugin@3.4.0(esbuild@0.28.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0)))
+      site-config-stack: 4.2.3(vue@3.5.43(typescript@5.9.3))
+      std-env: 4.2.0
+      ufo: 1.6.4
+    transitivePeerDependencies:
+      - magic-string
+      - magicast
+      - oxc-parser
+      - rolldown
+      - unplugin
+      - vue
+
   nuxt-site-config-kit@4.2.3(magic-string@1.4.1)(magicast@0.5.5)(oxc-parser@0.151.0)(rolldown@1.2.9)(unplugin@3.4.0(esbuild@0.28.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0)))(vue@3.5.43(typescript@5.9.3)):
     dependencies:
       '@nuxt/kit': 4.5.2(magic-string@1.4.1)(magicast@0.5.5)(oxc-parser@0.151.0)(rolldown@1.2.9)(unplugin@3.4.0(esbuild@0.28.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0)))
@@ -18399,6 +18410,31 @@ snapshots:
       h3: 1.15.11
       nuxt-site-config-kit: 4.2.3(magic-string@1.4.1)(magicast@0.5.5)(oxc-parser@0.151.0)(rolldown@1.2.9)(unplugin@3.4.0(esbuild@0.28.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0)))(vue@3.5.43(typescript@5.9.3))
       nuxtseo-shared: 5.3.16(38a9813de0797ff19d892407310ba884)
+      pathe: 2.0.3
+      pkg-types: 2.3.3
+      site-config-stack: 4.2.3(vue@3.5.43(typescript@5.9.3))
+      ufo: 1.6.4
+      vue: 3.5.43(typescript@5.9.3)
+    transitivePeerDependencies:
+      - '@nuxt/schema'
+      - magic-string
+      - magicast
+      - nuxt
+      - oxc-parser
+      - rolldown
+      - unplugin
+      - vite
+      - zod
+
+  nuxt-site-config@4.2.3(83137696d7ac2c3a2c2727d9ca9a4f13):
+    dependencies:
+      '@nuxt/devalue': 2.0.2
+      '@nuxt/kit': 4.5.2(magic-string@1.4.1)(magicast@0.5.3)(oxc-parser@0.151.0)(rolldown@1.2.9)(unplugin@3.4.0(esbuild@0.28.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0)))
+      consola: 3.4.2
+      defu: 6.1.7
+      h3: 1.15.11
+      nuxt-site-config-kit: 4.2.3(magic-string@1.4.1)(magicast@0.5.3)(oxc-parser@0.151.0)(rolldown@1.2.9)(unplugin@3.4.0(esbuild@0.28.0)(rolldown@1.2.9)(rollup@4.60.4)(vite@8.3.0(@types/node@25.9.1)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(yaml@2.9.0)))(vue@3.5.43(typescript@5.9.3))
+      nuxtseo-shared: 5.3.16(7e0d105a16acfb947e07e9a4387aab4d)
       pathe: 2.0.3
       pkg-types: 2.3.3
       site-config-stack: 4.2.3(vue@3.5.43(typescript@5.9.3))
