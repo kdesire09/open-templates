@@ -1,4 +1,4 @@
-# Open Templates Monorepo
+# Pochoir — Monorepo
 
 Un monorepo basé sur Turborepo regroupant des templates et des applications (comme `home` et `lunet`).
 
@@ -10,7 +10,7 @@ Ce fichier donne aux agents d'IA de codage le contexte dont ils ont besoin pour 
 - **`apps/`** : Contient les applications Nuxt (`home`, `lunet`, etc.).
 - **`packages/`** : Contient les paquets et configurations partagés (comme `packages/eslint-config`).
 - **Commandes** : Toutes les commandes doivent être exécutées via Turborepo depuis la racine (ex: `turbo run dev`, `turbo run build`).
-- **Pas de `pnpm exec turbo`** : pnpm v12 lance d'abord un `pnpm install` (donc `nuxt prepare` dans chaque app), ce qui régénère `.nuxt` et fait tomber les serveurs de dev en cours. Appelez le binaire directement : `./node_modules/.bin/turbo run lint --filter=@open-templates/home`.
+- **Pas de `pnpm exec turbo`** : pnpm v12 lance d'abord un `pnpm install` (donc `nuxt prepare` dans chaque app), ce qui régénère `.nuxt` et fait tomber les serveurs de dev en cours. Appelez le binaire directement : `./node_modules/.bin/turbo run lint --filter=@pochoir/home`.
 
 ## Stack
 
@@ -29,7 +29,7 @@ Ce fichier donne aux agents d'IA de codage le contexte dont ils ont besoin pour 
 ## Code Style
 
 - **TypeScript everywhere** — Utilisez TypeScript pour tous les nouveaux fichiers.
-- **ESLint partagé** — La configuration est gérée centralement par `@open-templates/eslint-config` (`packages/eslint-config`). Ne modifiez pas la configuration directement dans les apps sans raison valable.
+- **ESLint partagé** — La configuration est gérée centralement par `@pochoir/eslint-config` (`packages/eslint-config`). Ne modifiez pas la configuration directement dans les apps sans raison valable.
 - **Tailwind CSS** — Utilisez les classes utilitaires de Tailwind.
 - **Composition API** — Utilisez `<script setup>` avec la Composition API de Vue. 
 - **Nuxt UI First** — Privilégiez toujours l'utilisation des composants de `nuxt-ui` avant de créer un composant personnalisé.

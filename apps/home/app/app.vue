@@ -11,7 +11,7 @@ useHead({
   ],
 })
 
-const title = 'Open Templates'
+const title = 'Pochoir'
 const description = 'A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project.'
 
 useSeoMeta({
@@ -19,8 +19,8 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://opentemplates.kdesire.com/og-image.png',
-  twitterImage: 'https://opentemplates.kdesire.com/og-image.png',
+  ogImage: 'https://pochoir.kdesire.com/og-image.png',
+  twitterImage: 'https://pochoir.kdesire.com/og-image.png',
   twitterCard: 'summary_large_image',
   twitterSite: '@kdesire09',
 })

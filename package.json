@@ -1,5 +1,5 @@
 {
-  "name": "open-templates",
+  "name": "pochoir",
   "private": true,
   "packageManager": "pnpm@12.6.0",
   "scripts": {

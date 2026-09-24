@@ -1,6 +1,6 @@
-# 🎨 Open Templates Showcase
+# 🎨 Pochoir Showcase
 
-The main showcase portal for Open Templates, a curated collection of modern UI templates built with Nuxt and Nuxt UI.
+The main showcase portal for Pochoir, a curated collection of modern UI templates built with Nuxt and Nuxt UI.
 
 ## 🚀 Setup
 

@@ -1,12 +1,12 @@
 hero:
-  title: OpenTemplates
+  title: Pochoir
   description: A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project.
   links:
     - label: View on GitHub
       icon: i-simple-icons-github
       variant: soft
       size: lg
-      to: https://github.com/kdesire09/open-templates
+      to: https://github.com/kdesire09/pochoir
       target: _blank 
 
 templates:
@@ -20,7 +20,7 @@ templates:
       label: 'Live demo'
       icon: 'i-lucide-arrow-up-right'
     repo:
-      to: 'https://github.com/kdesire09/open-templates/tree/main/apps/archive'
+      to: 'https://github.com/kdesire09/pochoir/tree/main/apps/archive'
       label: 'GitHub'
       icon: 'i-simple-icons-github'
     designer:
@@ -39,7 +39,7 @@ templates:
       label: 'Live demo'
       icon: 'i-lucide-arrow-up-right'
     repo:
-      to: 'https://github.com/kdesire09/open-templates/tree/main/apps/lunet'
+      to: 'https://github.com/kdesire09/pochoir/tree/main/apps/lunet'
       label: 'GitHub'
       icon: 'i-simple-icons-github'
     designer:
