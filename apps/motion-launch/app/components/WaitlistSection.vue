@@ -68,7 +68,7 @@ async function handleSubmit() {
       class="bg-zinc-800/30 border-zinc-700/50"
       :ui="{
         body: 'p-6 sm:p-8',
-        rounded: 'rounded-2xl',
+        root: 'rounded-2xl',
       }"
     >
       <h3 class="font-display text-xl font-semibold text-highlighted mb-2">
