@@ -33,6 +33,7 @@ Ce fichier donne aux agents d'IA de codage le contexte dont ils ont besoin pour 
 - **Tailwind CSS** — Utilisez les classes utilitaires de Tailwind.
 - **Composition API** — Utilisez `<script setup>` avec la Composition API de Vue. 
 - **Nuxt UI First** — Privilégiez toujours l'utilisation des composants de `nuxt-ui` avant de créer un composant personnalisé.
+- **Pas de titre dans un slot `#title`** — `UBlogPost`, `UPageSection`, `UPageHero` ou `UChangelogVersion` enveloppent déjà leur titre dans un `<h1>`/`<h2>`. Un second titre imbriqué est du HTML invalide et casse l'hydratation. Passez le texte par la prop `title` et le style par `ui.title`.
 
 ## UI (home)
 

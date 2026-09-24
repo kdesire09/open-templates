@@ -40,8 +40,10 @@ defineOgImage('Page.takumi', {
 <template>
   <div v-if="stories">
     <UContainer>
+      <!-- UBlogPost already renders the title in an <h2>: style it via `ui.title`, never nest another heading -->
       <UBlogPost
         orientation="horizontal"
+        :title="latestPost?.title"
         :description="latestPost?.description"
         :image="latestPost?.image"
         :to="latestPost?.path"
@@ -49,13 +51,9 @@ defineOgImage('Page.takumi', {
         :ui="{
           root: 'py-8 md:py-16',
           header: 'aspect-3/2',
+          title: 'text-[64px] leading-[1.1] tracking-[-0.02em] font-bold',
         }"
       >
-        <template #title>
-          <h2 class="text-[64px] leading-[1.1] tracking-[-0.02em] font-bold">
-            {{ latestPost?.title }}
-          </h2>
-        </template>
         <template #description>
           <p class="text-xl max-w-lg">
             {{ latestPost?.description }}
