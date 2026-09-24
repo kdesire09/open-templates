@@ -15,11 +15,7 @@ function _useHeaderLinks() {
     }, {
       label: 'About',
       to: '/about',
-      active: route.path.startsWith('/about'),
-    }, {
-      label: 'Contact',
-      to: '/contact',
-      active: route.path.startsWith('/contact'),
+      active: route.path.startsWith('/about') || route.path.startsWith('/contact'),
     }]
   })
   return { headerLinks }

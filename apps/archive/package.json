@@ -12,21 +12,28 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
+    "@comark/nuxt": "^0.7.0",
     "@nuxt/content": "3.14.0",
+    "@nuxt/fonts": "^0.14.0",
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.8.1",
-    "@nuxtjs/seo": "^3.4.0",
+    "@takumi-rs/core": "^2.14.0",
+    "@unhead/vue": "^3.4.1",
     "@vueuse/core": "^14.4.0",
     "@vueuse/nuxt": "14.3.0",
     "motion-v": "^2.4.4",
     "nuxt": "^4.5.2",
+    "nuxt-og-image": "6.9.0",
     "nuxt-studio": "1.7.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
+    "unstorage": "^1.17.5",
     "vue": "^3.5.43",
     "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@open-templates/eslint-config": "workspace:*"
+    "@iconify-json/lucide": "^1.2.136",
+    "@open-templates/eslint-config": "workspace:*",
+    "nuxtseo-layer-devtools": "^5.3.16"
   }
 }
