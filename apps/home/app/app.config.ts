@@ -1,19 +1,14 @@
 export default defineAppConfig({
-  repository: 'nuxt/ui',
   ui: {
-    pageSection: {
-      slots: {
-        title: 'font-tasa-orbiter!',
-      },
-    },
-    changelogVersion: {
-      slots: {
-        title: 'font-tasa-orbiter!',
-      },
-    },
     colors: {
       primary: 'cyan',
-      neutral: 'neutral',
+      neutral: 'zinc',
+    },
+    button: {
+      slots: {
+        // Tactile press feedback on every button
+        base: 'transition-[color,background-color,box-shadow,scale] duration-150 ease-out active:not-disabled:scale-[0.96]',
+      },
     },
     prose: {
       li: {

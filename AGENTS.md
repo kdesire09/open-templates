@@ -10,6 +10,7 @@ Ce fichier donne aux agents d'IA de codage le contexte dont ils ont besoin pour 
 - **`apps/`** : Contient les applications Nuxt (`home`, `motion-launch`, etc.).
 - **`packages/`** : Contient les paquets et configurations partagés (comme `packages/eslint-config`).
 - **Commandes** : Toutes les commandes doivent être exécutées via Turborepo depuis la racine (ex: `turbo run dev`, `turbo run build`).
+- **Pas de `pnpm exec turbo`** : pnpm v12 lance d'abord un `pnpm install` (donc `nuxt prepare` dans chaque app), ce qui régénère `.nuxt` et fait tomber les serveurs de dev en cours. Appelez le binaire directement : `./node_modules/.bin/turbo run lint --filter=@open-templates/home`.
 
 ## Stack
 
@@ -32,6 +33,15 @@ Ce fichier donne aux agents d'IA de codage le contexte dont ils ont besoin pour 
 - **Tailwind CSS** — Utilisez les classes utilitaires de Tailwind.
 - **Composition API** — Utilisez `<script setup>` avec la Composition API de Vue. 
 - **Nuxt UI First** — Privilégiez toujours l'utilisation des composants de `nuxt-ui` avant de créer un composant personnalisé.
+- **Pas de titre dans un slot `#title`** — `UBlogPost`, `UPageSection`, `UPageHero` ou `UChangelogVersion` enveloppent déjà leur titre dans un `<h1>`/`<h2>`. Un second titre imbriqué est du HTML invalide et casse l'hydratation. Passez le texte par la prop `title` et le style par `ui.title`.
+
+## UI (home)
+
+- Palette neutre `zinc` (dans `app.config.ts`) et tokens sémantiques Nuxt UI (`text-muted`, `bg-default`, `border-default`…) plutôt que des couleurs Tailwind brutes.
+- Tous les `UButton` ont un retour de pression `scale(0.96)`, réglé globalement dans `app.config.ts`.
+- Entrées de page : utilitaire CSS `stagger-in` + `[--stagger:n]` (100 ms par cran), qui retombe sur un simple fondu si `prefers-reduced-motion` est actif.
+- `UChangelogVersion` renvoie ses `$attrs` vers son lien interne : passez-lui `class`, jamais `style`.
+- Le changement de thème coupe déjà toutes les transitions (`disableTransition` de color-mode, activé par Nuxt UI). Pour garder l'animation d'un élément, rendez sa transition `!important` (ex. les icônes de `ColorModeButton`).
 
 ## Pull Requests & Commits
 
