@@ -13,7 +13,7 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.135",
+    "@iconify-json/lucide": "^1.2.136",
     "@nuxt/content": "^3.16.1",
     "@nuxt/hints": "1.0.0-alpha.5",
     "@nuxt/image": "2.0.0",
