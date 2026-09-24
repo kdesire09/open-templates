@@ -3,7 +3,7 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".output/**", "dist/**", ".nuxt/**"]
+      "outputs": [".output/**", "dist/**", ".nuxt/**", ".vercel/**"]
     },
     "dev": {
       "cache": false,
@@ -20,7 +20,7 @@
     },
     "generate": {
       "dependsOn": ["^generate"],
-      "outputs": [".output/**", "dist/**", ".nuxt/**"]
+      "outputs": [".output/**", "dist/**", ".nuxt/**", ".vercel/**"]
     }
   }
 }
