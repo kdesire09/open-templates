@@ -2,10 +2,10 @@ hero:
   title: OpenTemplates
   description: A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project.
   links:
-    - label: GitHub
+    - label: View on GitHub
       icon: i-simple-icons-github
-      variant: ghost
-      size: md
+      variant: soft
+      size: lg
       to: https://github.com/kdesire09/open-templates
       target: _blank 
 
@@ -18,7 +18,7 @@ templates:
     demo:
       to: 'https://archive.kdesire.com'
       label: 'Live demo'
-      icon: 'i-heroicons-play-circle'
+      icon: 'i-lucide-arrow-up-right'
     repo:
       to: 'https://github.com/kdesire09/open-templates/tree/main/apps/archive'
       label: 'GitHub'
@@ -37,7 +37,7 @@ templates:
     demo: 
       to: 'https://opentemplates-ui-motionlaunch.kdesire.com'
       label: 'Live demo'
-      icon: 'i-heroicons-play-circle'
+      icon: 'i-lucide-arrow-up-right'
     repo:
       to: 'https://github.com/kdesire09/open-templates/tree/main/apps/motion-launch'
       label: 'GitHub'

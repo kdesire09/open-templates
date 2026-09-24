@@ -15,6 +15,8 @@ const title = 'Open Templates'
 const description = 'A collection of high-quality, open-source templates built with Nuxt UI to kickstart your next project.'
 
 useSeoMeta({
+  title,
+  description,
   ogTitle: title,
   ogDescription: description,
   ogImage: 'https://opentemplates.kdesire.com/og-image.png',
