@@ -1,13 +1,13 @@
 # Open Templates Monorepo
 
-Un monorepo basé sur Turborepo regroupant des templates et des applications (comme `home` et `motion-launch`).
+Un monorepo basé sur Turborepo regroupant des templates et des applications (comme `home` et `lunet`).
 
 Ce fichier donne aux agents d'IA de codage le contexte dont ils ont besoin pour travailler efficacement dans ce dépôt. Il est lu par [Codex](https://openai.com/codex), [Cursor](https://cursor.com), [Sourcegraph Amp](https://ampcode.com), [Aider](https://aider.chat), [Jules](https://jules.google), et d'autres agents qui respectent la spécification [AGENTS.md](https://agents.md).
 
 ## Architecture & Monorepo
 
 - **Turborepo** : Le projet est un monorepo géré par [Turborepo](https://turbo.build/) et les espaces de travail de `pnpm`.
-- **`apps/`** : Contient les applications Nuxt (`home`, `motion-launch`, etc.).
+- **`apps/`** : Contient les applications Nuxt (`home`, `lunet`, etc.).
 - **`packages/`** : Contient les paquets et configurations partagés (comme `packages/eslint-config`).
 - **Commandes** : Toutes les commandes doivent être exécutées via Turborepo depuis la racine (ex: `turbo run dev`, `turbo run build`).
 
@@ -39,6 +39,15 @@ Ce fichier donne aux agents d'IA de codage le contexte dont ils ont besoin pour 
 - **Petites PRs** — Gardez les PRs concentrées sur une seule fonctionnalité ou application.
 
 <!-- skilld -->
+
+## Animations (lunet)
+
+- **GSAP + ScrollTrigger + SplitText** pour les animations, **Lenis** pour le scroll fluide (enregistrés une seule fois dans `app/plugins/gsap.client.ts`).
+- Chaque scène utilise `useScrollScene(root, setup)` : sélecteurs scopés, reconstruction au breakpoint desktop, nettoyage automatique au démontage, et rien n'est animé si `prefers-reduced-motion` est actif.
+- Les recettes réutilisables vont dans `app/utils/animations.ts` ; le contenu reste dans `app.config.ts` (bloc `launch`).
+- Animez des éléments *wrappers* différents quand plusieurs timelines touchent le même objet (intro, scroll, souris), et utilisez `fromTo` quand la valeur de départ vient d'une classe Tailwind (`scale-*`, `translate-*`), que GSAP ne sait pas lire.
+- Pas de `filter` animé sur des éléments en `preserve-3d` (re-rasterisation à chaque frame).
+- Les sélecteurs de `useScrollScene` matchent aussi les composants enfants : donnez des attributs `data-*` propres à chaque scène (ex. `SceneHeading` utilise déjà `data-rise` / `data-title`).
 
 Avant de modifier du code, vérifiez .agents/skills/ pour les skills pertinents (notamment `turborepo`).
 Lisez le SKILL.md de n'importe quel package correspondant avant de continuer.

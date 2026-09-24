@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+/*
+ * `anim:` variant — applies only when JS animations will run
+ * (html.js-anim is set by an inline head script, and the user accepts motion).
+ * Used to hide elements before their intro and to switch layouts for pinned scenes.
+ */
+@custom-variant anim {
+  @media (prefers-reduced-motion: no-preference) {
+    html.js-anim & {
+      @slot;
+    }
+  }
+}
+
+/*
+ * Lunet theme — warm black / bone white, one signal orange.
+ * Archivo Expanded for display, Geist Mono for data. Light and dark share the same accent.
+ */
+@theme static {
+  --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --color-signal-50: #fff3ec;
+  --color-signal-100: #ffe3d3;
+  --color-signal-200: #ffc3a5;
+  --color-signal-300: #ff9a6c;
+  --color-signal-400: #ff7440;
+  --color-signal-500: #ff5a1f;
+  --color-signal-600: #ed3f0a;
+  --color-signal-700: #c52f0b;
+  --color-signal-800: #9c2911;
+  --color-signal-900: #7e2512;
+  --color-signal-950: #440f06;
+}
+
+/* Wide display cut — reads like the engraving on a case back.
+   @nuxt/fonts emits Archivo without a `font-stretch` range, which would clamp `font-stretch` to 100%:
+   the width axis is set directly instead. */
+@utility font-display {
+  font-family: var(--font-sans);
+  font-stretch: 125%;
+  font-variation-settings: 'wdth' 125;
+}
+
+:root {
+  --ui-radius: 0.125rem;
+  /* Used by the CSS-drawn product */
+  --font-display: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Geist Mono', ui-monospace, monospace;
+
+  /* Light: bone paper, ink text. Primary one step darker so white button text passes AA (5.6:1) */
+  --ui-primary: var(--ui-color-primary-700);
+  --ui-bg: #f4f1ea;
+  --ui-bg-muted: #eeeae1;
+  --ui-bg-elevated: #e9e4d9;
+  --ui-bg-accented: #ddd7ca;
+  --ui-border: rgb(28 25 20 / 0.12);
+  --ui-border-muted: rgb(28 25 20 / 0.07);
+  --ui-border-accented: rgb(28 25 20 / 0.24);
+  --ui-text-dimmed: #948d81;
+  --ui-text-muted: #6b655b;
+  --ui-text-toned: #4a453e;
+  --ui-text: #2b2823;
+  --ui-text-highlighted: #14120f;
+}
+
+/* Every token set in :root must be reset here, or the light value leaks into dark mode */
+.dark {
+  --ui-primary: var(--ui-color-primary-400);
+  --ui-bg: #0c0b0a;
+  --ui-bg-muted: #121110;
+  --ui-bg-elevated: #171614;
+  --ui-bg-accented: #22201d;
+  --ui-border: rgb(236 232 225 / 0.1);
+  --ui-border-muted: rgb(236 232 225 / 0.06);
+  --ui-border-accented: rgb(236 232 225 / 0.2);
+  --ui-text-dimmed: #625d55;
+  --ui-text-muted: #948e83;
+  --ui-text-toned: #bdb7ad;
+  --ui-text: #d9d4ca;
+  --ui-text-highlighted: #f2eee6;
+}
+
+/* No `scroll-behavior: smooth` — Lenis handles smooth scrolling */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Safety net: if the intro timeline never runs, the loader still gets out of the way */
+.loader-failsafe {
+  animation: loader-failsafe 0s linear 6s forwards;
+}
+
+@keyframes loader-failsafe {
+  to {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
