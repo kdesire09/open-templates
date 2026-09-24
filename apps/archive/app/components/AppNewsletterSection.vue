@@ -12,15 +12,15 @@ withDefaults(defineProps<{
   <UPageSection
     :ui="{
       root: 'bg-brand-charcoal dark:bg-surface-container-lowest',
-      container: 'py-16 sm:py-20 text-center',
+      container: 'py-16 sm:py-20 text-center gap-6 sm:gap-8',
     }"
   >
     <h2 class="text-3xl sm:text-4xl font-bold text-white dark:text-highlighted tracking-tight text-pretty">
       {{ title }}
     </h2>
-    <p class="mt-4 text-white/70 dark:text-brand-neutral max-w-lg mx-auto">
+    <p class="text-white/70 dark:text-brand-neutral max-w-lg mx-auto">
       {{ description }}
     </p>
-    <AppNewsletterForm inverted class="mt-8" />
+    <AppNewsletterForm inverted />
   </UPageSection>
 </template>
