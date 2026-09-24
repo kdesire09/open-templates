@@ -55,7 +55,7 @@ async function onSubmit(event: FormSubmitEvent<typeof state>) {
     <UFormField
       name="email"
       class="flex-1 w-full"
-      :ui="inverted ? { error: 'text-terracotta-300' } : undefined"
+      :ui="inverted ? { error: 'text-red-400' } : undefined"
     >
       <UInput
         v-model="state.email"
