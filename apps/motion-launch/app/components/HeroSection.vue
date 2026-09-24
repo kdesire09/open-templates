@@ -157,7 +157,7 @@ const staggerDelay = 0.15
               class="w-72 h-96 sm:w-80 sm:h-112 glass border-white/10"
               :ui="{
                 body: 'flex items-center justify-center h-full',
-                rounded: 'rounded-3xl',
+                root: 'rounded-3xl',
               }"
             >
               <div class="text-center p-8">

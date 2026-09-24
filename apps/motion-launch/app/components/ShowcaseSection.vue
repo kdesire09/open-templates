@@ -86,7 +86,7 @@ const highlights = [
               class="h-full glass border-white/5 hover:border-primary-500/30 transition-all duration-300"
               :ui="{
                 body: 'p-6 lg:p-8',
-                rounded: 'rounded-2xl',
+                root: 'rounded-2xl',
               }"
             >
               <!-- Icon -->
@@ -132,7 +132,7 @@ const highlights = [
           class="glass border-white/5 overflow-hidden"
           :ui="{
             body: 'p-0',
-            rounded: 'rounded-3xl',
+            root: 'rounded-3xl',
           }"
         >
           <div class="grid lg:grid-cols-2">

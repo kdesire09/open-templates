@@ -135,7 +135,7 @@ const stats = [
               class="h-full bg-zinc-900/60 border-zinc-800/80 hover:border-primary-500/30 transition-all duration-300 cursor-pointer overflow-hidden"
               :ui="{
                 body: 'p-6 lg:p-8 relative',
-                rounded: 'rounded-3xl',
+                root: 'rounded-3xl',
               }"
             >
               <!-- Hover glow effect -->
@@ -194,7 +194,7 @@ const stats = [
             class="bg-zinc-900/50 border-zinc-800/60"
             :ui="{
               body: 'py-10 px-8',
-              rounded: 'rounded-2xl',
+              root: 'rounded-2xl',
             }"
           >
             <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-zinc-800/60">
